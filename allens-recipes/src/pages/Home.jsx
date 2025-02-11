@@ -1,5 +1,5 @@
 import Newest from "../components/Newest";
-import Recent from "../components/Recent";
+import Recent from "../components/Recent/Recent";
 import React from 'react'
 
 function Home() {

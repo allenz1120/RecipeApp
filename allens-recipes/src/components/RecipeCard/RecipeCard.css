@@ -1,0 +1,33 @@
+.card {
+    background-color: white;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+  }
+
+.card .header {
+    display: flex;
+    justify-content: center;
+    height: 200px
+}
+
+.card .body h5 {
+    color: #B1C29E;
+    margin-top: 5px;
+    margin-bottom: 0px;
+}
+.card .body h4 {
+    color: black;
+    font-style: italic;
+    font-family: 'Romie';
+    font-weight: 300;
+    font-size: 18px;
+    margin-top: 5px;
+    margin-bottom: 0px;
+}
+
+.card img{
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 0.5em;
+}
