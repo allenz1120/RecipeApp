@@ -1,8 +1,11 @@
+import NavBar from "./components/NavBar/NavBar";
 import Pages from "./pages/Pages";
+
+
 function App() {
   return (
     <div className="App">
-        <h1>Hello World</h1>
+        <NavBar />
         <Pages />
     </div>
   );

@@ -1,6 +1,6 @@
 function Newest() {
   return (
-    <div>Newest</div>
+    <div>Newest Placeholder</div>
   )
 }
 
