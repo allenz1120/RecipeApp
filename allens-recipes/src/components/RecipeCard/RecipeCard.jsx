@@ -3,7 +3,7 @@ import './RecipeCard.css'
 
 function RecipeCard({recipe}) {
   return (
-    <div className='card'>
+    <div className='recipeCard'>
         <div className='header'>
             <img src={recipe.image} alt={recipe.title}/>
         </div>

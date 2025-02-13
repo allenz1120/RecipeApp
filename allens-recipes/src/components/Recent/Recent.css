@@ -1,5 +1,4 @@
-
-.container{
+.recent .recipe-grid{
     height: 500px;
     width: 900px;
     margin-left: auto;
@@ -10,11 +9,11 @@
     gap: 1em;
   }
 
-.wrapper {
+.recent .wrapper {
     margin: 4rem 0 rem;
 }
 
-.wrapper h3 {
+.recent .wrapper h3 {
     display: flex;
     justify-content: center;
     color: black;

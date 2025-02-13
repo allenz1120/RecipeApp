@@ -12,17 +12,23 @@ function Recent() {
     }, []);
   
     const getRecent = async() =>{
-      const api = await fetch(`https://api.spoonacular.com/recipes/random?apiKey=${process.env.REACT_APP_API_KEY}&number=8`);
-      const data = await api.json();
-      console.log(data.recipes)
-      setRecent(data.recipes)
+      const check = localStorage.getItem('recent');
+      if (check){
+        setRecent(JSON.parse(check));
+      }
+      else{
+        const api = await fetch(`https://api.spoonacular.com/recipes/random?apiKey=${process.env.REACT_APP_API_KEY}&number=8`);
+        const data = await api.json();
+        localStorage.setItem('recent', JSON.stringify(data.recipes));
+        setRecent(data.recipes)
+      }
     }
   
     return (
-      <div>
+      <div className="recent">
           <div className="wrapper">
             <h3>Latest in the Kitchen</h3>
-            <div className="container">
+            <div className="recipe-grid">
               {recent.map(recipe => {
                 return (
                   <RecipeCard key={recipe.title} recipe={recipe}/>

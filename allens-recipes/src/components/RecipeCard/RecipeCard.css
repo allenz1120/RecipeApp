@@ -1,22 +1,23 @@
-.card {
+.recipeCard {
     background-color: white;
     /* display: flex;
     justify-content: center;
     align-items: center; */
   }
 
-.card .header {
+.recipeCard .header {
     display: flex;
     justify-content: center;
     height: 200px
 }
 
-.card .body h5 {
-    color: #B1C29E;
+.recipeCard .body h5 {
+    color: #254336;
     margin-top: 5px;
     margin-bottom: 0px;
+    font-family: 'Inter';
 }
-.card .body h4 {
+.recipeCard .body h4 {
     color: black;
     font-style: italic;
     font-family: 'Romie';
@@ -26,7 +27,7 @@
     margin-bottom: 0px;
 }
 
-.card img{
+.recipeCard img{
     max-width: 100%;
     max-height: 100%;
     border-radius: 0.5em;
