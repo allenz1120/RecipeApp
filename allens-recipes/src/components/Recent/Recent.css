@@ -1,11 +1,10 @@
 .recent .recipe-grid{
-    height: 500px;
-    width: 900px;
     margin-left: auto;
     margin-right: auto;
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(2, 1fr);
+    grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr)); /*Keeps it so that we can adjust how many cols in a row based on how wide the window is */
+    padding-left: 15%;
+    padding-right: 15%;
     gap: 1em;
   }
 

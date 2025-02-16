@@ -1,14 +1,13 @@
 .recipeCard {
     background-color: white;
-    /* display: flex;
     justify-content: center;
-    align-items: center; */
   }
 
 .recipeCard .header {
     display: flex;
     justify-content: center;
-    height: 200px
+    height: 400px;
+    width: 100%;
 }
 
 .recipeCard .body h5 {
