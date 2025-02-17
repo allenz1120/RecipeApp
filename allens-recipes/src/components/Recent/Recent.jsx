@@ -7,9 +7,10 @@ function Recent() {
   //  Variable and the function used to set that variable. Inside the useState, define the type of data it is
     const [recent, setRecent] = useState([]);
   
+    // This makes it so that this function gets called on load
     useEffect(() => {
       getRecent();
-    }, []);
+    }, []); // By passing an empty array, this only runs on the initial render
   
     const getRecent = async() =>{
       const check = localStorage.getItem('recent');

@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import './Newest.css';
+import {Link} from "react-router-dom";
 
 function Newest() {
 
@@ -10,7 +11,7 @@ function Newest() {
         getNewest();
       }, []);
     
-      const getNewest = async() =>{
+      const getNewest = async() => {
         const check = localStorage.getItem('newest');
         if (check){
           setNewest(JSON.parse(check));
@@ -27,7 +28,9 @@ function Newest() {
   return (
     <div className="newest">
       <div className="image-wrapper">
-        <img src={newest.image} alt={newest.title}/>
+        <Link to={'/recipe/' + newest.id}>
+          <img src={newest.image} alt={newest.title}/>
+        </Link>
       </div>
       <div className="description-wrapper">
         <h4>New to the Kitchen</h4>
