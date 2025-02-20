@@ -1,80 +1,79 @@
 .recipe .recipeWrapper {
-    margin-top: 1rem;
-    padding: 0 18%;
-}    
+  margin-top: 1rem;
+  padding: 0 18%;
+}
 
 .recipe .titleBar {
-    text-align: center;
-    background-color: #DAD3BE;
-    padding: 2rem 0;
+  text-align: center;
+  background-color: #fff6da;
+  padding: 2rem 0;
 }
 
 .recipe .titleBar h3 {
-    color: black;
-    font-family: 'Romie';
-    font-weight: 100;
-    font-size: 1.5rem;
-    margin: 0;
+  color: black;
+  font-family: "Romie";
+  font-weight: 100;
+  font-size: 1.5rem;
+  margin: 0;
 }
 
 .recipe .titleBar h4 {
-    color: #254336;
-    font-family: 'Romie';
-    font-weight: 20;
-    font-size: 2rem;
-    margin: 0;
+  color: #a94a4a;
+  font-family: "Romie";
+  font-weight: 20;
+  font-size: 2rem;
+  margin: 0;
 }
 
-.recipe  h2 {
-    margin-top: 0.5rem;
-    color: #254336;
-    font-size: 2.5rem;
-    font-family: 'Inter';
-    font-weight: 900;
+.recipe h2 {
+  margin-top: 0.5rem;
+  color: #a94a4a;
+  font-size: 2.5rem;
+  font-family: "Inter";
+  font-weight: 900;
 }
 
-.recipe .introWrapper{
-    display: flex;
+.recipe .introWrapper {
+  display: flex;
 }
 
-.recipe .imageWrapper{
-    width: 60%;
-    height: 1000px;
-}    
+.recipe .imageWrapper {
+  width: 60%;
+  height: 1000px;
+}
 .recipe .imageWrapper img {
-    width: 100%;
-    height: 700px
-}    
+  width: 100%;
+  height: 700px;
+}
 
 .recipe .imageSideBar {
-    margin-left: 4rem;
-}    
+  margin-left: 4rem;
+}
 
-.recipe .recipeCard{
-    background-color: #DAD3BE;
-    justify-items: center;
-    padding: 1rem;
+.recipe .recipeCard {
+  background-color: #fff6da;
+  justify-items: center;
+  padding: 1rem;
 }
 
 .recipe .recipeCard .container {
-    background-color: white;
-    width: 90%;
-    justify-items: center;
-    padding: 1rem;
+  background-color: white;
+  width: 90%;
+  justify-items: center;
+  padding: 1rem;
 }
-.recipe .navButtons{
-    width: 70%;
-    display: flex;
-    justify-content: space-around;
-}    
+.recipe .navButtons {
+  width: 70%;
+  display: flex;
+  justify-content: space-around;
+}
 
 .recipe .navButton {
-    color: #313131;
-    border: 2px solid black;
-    padding: 0.5rem 1rem;
-    font-weight: 600;
-    background: white;
-    margin-left: 1rem;
-    border-radius: 1rem;
-    
+  color: #313131;
+  border: 2px solid black;
+  padding: 0.5rem 1rem;
+  font-weight: 600;
+  background: white;
+  margin-left: 1rem;
+  border-radius: 1rem;
 }
