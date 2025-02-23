@@ -11,10 +11,10 @@
 }
 
 .recipeCard .body h5 {
-  color: #a94a4a;
+  color: var(--main-color);;
   margin-top: 5px;
   margin-bottom: 0px;
-  font-family: "Inter";
+  font-family: var(--main-font);
 }
 .recipeCard .body h4 {
   color: black;

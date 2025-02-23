@@ -1,0 +1,29 @@
+.recipeHeaderBar {
+  text-align: center;
+  background-color: var(--secondary-color);
+  padding: 2rem 0;
+}
+
+.recipeHeaderBar h3 {
+  color: black;
+  font-family: "Romie";
+  font-weight: 100;
+  font-size: 1.5rem;
+  margin: 0;
+}
+
+.recipeHeaderBar h4 {
+  color: var(--accent-color);
+  font-family: "Romie";
+  font-weight: 20;
+  font-size: 2rem;
+  margin: 0;
+}
+
+.recipeHeaderBar h2 {
+  margin-top: 0.5rem;
+  color: var(--main-color);
+  font-size: 2.5rem;
+  font-family: var(--main-font);
+  font-weight: 900;
+}

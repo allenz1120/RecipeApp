@@ -1,6 +1,6 @@
 .navBar .nav {
-  background-color: #a94a4a;
-  color: #fff6da;
+  background-color: var(--main-color);
+  color: var(--secondary-color);
   display: flex;
   justify-content: space-between;
   gap: 2rem;
@@ -12,8 +12,8 @@
 
 .navBar .nav .siteTitle {
   font-size: 3rem;
-  font-family: "Inter";
-  font-weight: 600;
+  font-family: var(--main-font);
+  font-weight: 800;
 }
 
 .navBar .nav ul {
@@ -32,7 +32,8 @@
   height: 100%;
   display: flex;
   padding: 0.25rem;
-  font-family: "Inter";
+  font-family: var(--main-font);
+  font-weight: 500;
 }
 
 .navBar .nav li:hover {
