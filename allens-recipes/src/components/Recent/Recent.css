@@ -3,9 +3,9 @@
     margin-right: auto;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr)); /*Keeps it so that we can adjust how many cols in a row based on how wide the window is */
-    padding-left: 15%;
-    padding-right: 15%;
-    gap: 1em;
+    padding-left: 10%;
+    padding-right: 10%;
+    gap: 2em;
   }
 
 .recent .wrapper {
@@ -17,7 +17,7 @@
     justify-content: center;
     color: black;
     font-style: italic;
-    font-family: 'Romie';
-    font-weight: 300;
-    font-size: 35px;
+    font-family: var(--secondary-font);
+    font-weight: 400;
+    font-size: 3rem;
 }

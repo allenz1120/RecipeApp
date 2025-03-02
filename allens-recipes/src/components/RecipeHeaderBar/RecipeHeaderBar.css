@@ -13,7 +13,7 @@
 }
 
 .recipeHeaderBar h4 {
-  color: var(--accent-color);
+  color: var(--main-color);
   font-family: "Romie";
   font-weight: 20;
   font-size: 2rem;

@@ -9,4 +9,15 @@ body {
   --secondary-color: #EFE9D5;
   --accent-color: #497D74;
   --main-font: "Manrope";
+  --secondary-font: "Romie"
+}
+
+.button {
+  color: #313131;
+  border: 2px solid black;
+  padding: 0.5rem 1rem;
+  font-weight: 600;
+  background: white;
+  margin-left: 1rem;
+  border-radius: 1rem;
 }

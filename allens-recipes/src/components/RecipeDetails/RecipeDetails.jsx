@@ -7,8 +7,8 @@ function RecipeDetails({ recipe }) {
       <h2>{recipe.title}</h2>
       <div className="navContainer">
         <div className="navButtons">
-          <div className="navButton">Share</div>
-          <div className="navButton">Print</div>
+          <div className="button">Share</div>
+          <div className="button">Print</div>
         </div>
         <div className="recipeContainer">
             <div className="ingredients">test</div>

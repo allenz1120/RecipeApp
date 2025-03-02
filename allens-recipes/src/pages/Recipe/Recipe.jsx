@@ -18,7 +18,7 @@ function Recipe() {
   const getRecipe = async () => {
     const recipeId = params.id;
     const api = await fetch(
-      `https://api.spoonacular.com/recipes/${recipeId}/information?apiKey=${process.env.REACT_APP_API_KEY}`
+      `https://api.spoonacular.com/recipes/${recipeId}/information?apiKey=${process.env.REACT_APP_SPOONACULAR_API_KEY}`
     );
     const data = await api.json();
     console.log(data);

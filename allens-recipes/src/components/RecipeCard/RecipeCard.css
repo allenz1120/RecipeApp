@@ -6,22 +6,22 @@
 .recipeCard .header {
   display: flex;
   justify-content: center;
-  height: 400px;
-  width: 100%;
+
 }
 
 .recipeCard .body h5 {
-  color: var(--main-color);;
+  color: var(--main-color);
   margin-top: 5px;
   margin-bottom: 0px;
   font-family: var(--main-font);
+  font-size: 1.2rem;
 }
 .recipeCard .body h4 {
   color: black;
   font-style: italic;
-  font-family: "Romie";
+  font-family: var(--secondary-font);
   font-weight: 300;
-  font-size: 18px;
+  font-size: 2rem;
   margin-top: 5px;
   margin-bottom: 0px;
 }

@@ -18,7 +18,7 @@ function Recent() {
         setRecent(JSON.parse(check));
       }
       else{
-        const api = await fetch(`https://api.spoonacular.com/recipes/random?apiKey=${process.env.REACT_APP_API_KEY}&number=8`);
+        const api = await fetch(`https://api.spoonacular.com/recipes/random?apiKey=${process.env.REACT_APP_SPOONACULAR_API_KEY}&number=8`);
         const data = await api.json();
         localStorage.setItem('recent', JSON.stringify(data.recipes));
         setRecent(data.recipes)
